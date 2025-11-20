@@ -8,13 +8,14 @@ import Projects from "./component/Projects";
 import Contact from "./component/Contact";
 
 const App = () => {
+  
   const [activeTab, setActiveTab] = useState("about");
   const [isDarkMode, setDarkMode] = useState(false);
   const [isVisible, setVisible] = useState(true);
 
   useState(() => {
     setVisible(true);
-    setDarkMode(false);
+    setDarkMode(true);
   }, []);
 
   const toggleTheme = () => {

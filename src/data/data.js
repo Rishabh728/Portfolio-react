@@ -227,7 +227,7 @@ export const tabs = [
     label: "Projects",
     icon: Briefcase,
     color: "from-yellow-400 to-orange-500",
-    description: "Featured Work",
+    description: "My Featured Work",
   },
 
   {
