@@ -11,7 +11,7 @@ import {
   Rocket,
 } from "lucide-react";
 import React from "react";
-import myPic from '../assets/me.jpg'
+import myPic from '../assets/Rishabh_Portfolio.png'
 
 const Hero = ({ isDarkMode, toggleTheme, isVisible }) => {
   return (
@@ -107,7 +107,7 @@ const Hero = ({ isDarkMode, toggleTheme, isVisible }) => {
                 }`}
               >
                 <Download size={16} />
-                <span>Download CV</span>
+                <a href="/Rishabh_SDE.pdf" download>Download CV</a>
               </button>
               <div className="flex space-x-4">
                 <a
@@ -134,7 +134,7 @@ const Hero = ({ isDarkMode, toggleTheme, isVisible }) => {
             </div>
             <div className={` grid grid-cols-3 gap-8 pt-8 border-t ${isDarkMode ?"text-gray-700": "text-gray-200"}`}>
               <div className="text-center">
-                <div className={`text-3xl font-bold ${isDarkMode ?"text-blue-400": "text-blue-600"}`}>20+</div>
+                <div className={`text-3xl font-bold ${isDarkMode ?"text-blue-400": "text-blue-600"}`}>10+</div>
                 <div className={` text-sm font-bold ${isDarkMode ?"text-gray-400": "text-gray-500"}`}>Project Completed</div>
               </div>
               <div className="text-center">
@@ -163,7 +163,7 @@ const Hero = ({ isDarkMode, toggleTheme, isVisible }) => {
                       <img
                         src={myPic}
                         alt=""
-                        className=" w-full h-full object-cover hover:scale-105 transition-all duration-300"
+                        className=" w-full h-full object-contain hover:scale-105 transition-all duration-300"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
                       <div className=" absolute top-4 ring-4 w-2 h-2 bg-blue-400 rounded-full animate-pulse opacity-60"></div>

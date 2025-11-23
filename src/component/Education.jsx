@@ -9,7 +9,7 @@ const Education = ({ themeClasses, isDarkMode }) => {
         <h2 className={`text-3xl font-bold mb-4 ${themeClasses.text}`}>
           Education & Certifications
         </h2>
-        <p className={`text-lg ${themeClasses.textSecond}`}>My academic journey and achivements</p>
+        <p className={`text-lg  ${themeClasses.textSecondary}`}>My academic journey and achivements</p>
       </div>
       <div className="space-y-4">
         {/* I will map method */}

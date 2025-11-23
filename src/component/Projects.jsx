@@ -9,7 +9,7 @@ const Projects = ({ themeClasses, isDarkMode }) => {
         <h2 className={`text-3xl font-bold mb-4 ${themeClasses.textSecondary}`}>
           Featured Projects
         </h2>
-        <p className={`text-lg`}>Some of my recent work and contributions</p>
+        <p className={`text-lg ${themeClasses.textSecondary}`}>Some of my recent work and contributions</p>
       </div>
       <div className=" grid lg:grid-cols-2 xl:grid-cols-3 gap-6">
         {/* I will use map method */}

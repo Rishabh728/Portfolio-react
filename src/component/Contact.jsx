@@ -22,7 +22,8 @@ const Contact = ({themeClasses, isDarkMode}) => {
                               <h3 className={`font-bold ${themeClasses.text}`}>
                                   Email
                               </h3>
-                              <p className={`${themeClasses.textSecondary}`}>join.doexample.com</p>
+                              <p className={`${themeClasses.textSecondary}`}>rishabh.sengineer@gmail.com
+</p>
                               <p className={`${themeClasses.textMuted}`}>I'llrespond within 24 hours</p>
                           </div>
                       </div>
@@ -37,7 +38,7 @@ const Contact = ({themeClasses, isDarkMode}) => {
                       </div>
                       <div>
                               <h3 className={`font-bold ${themeClasses.text}`}>LinkdIn</h3>
-                              <p className={`${themeClasses.textSecondary}`}>/injohndoe</p>
+                              <p className={`${themeClasses.textSecondary}`}><a href="https://www.linkedin.com/in/rishabh-engineer/">/rishabh-sengineer</a></p>
                               <p className={`text-sm ${themeClasses.textMuted}`}>Let's connect professionally </p>
                           </div>
                           </div>
@@ -50,7 +51,7 @@ const Contact = ({themeClasses, isDarkMode}) => {
                           </div>
                           <div>
                               <h3 className={`font-bold ${themeClasses.text}`}>Location</h3>
-                              <p className={`${themeClasses.textSecondary}`}>San Francisco, CA</p>
+                              <p className={`${themeClasses.textSecondary}`}>Banglore, India</p>
                               <p  className={`text-sm ${themeClasses.textMuted}`}>Available for remote work</p>
                           </div>
                           
