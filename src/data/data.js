@@ -19,6 +19,8 @@ import {
 import testFresher from "../data/test_fresher_img.png";
 import nextToEat from "../data/next_to_eat.PNG";
 import burgerBite from "../data/burger_bites.png";
+import zarorat from '../data/zarorat.png'
+
 
 export const skills = [
   {
@@ -159,18 +161,31 @@ export const education = [
 ];
 
 export const projects = [
+  // {
+  //   id:1,
+  //   title: "Test Freshers",
+  //   description:
+  //     "Contributed to Test Freshers, a coding practice platform similar to LeetCode, by developing the front-end interface and integrating the database to manage problems, submissions, and user data efficiently.",
+  //   technologies: ["React.js", "JavaScript", "HTML", "CSS"],
+  //   link: "https://testfreshers.qspiders.com/",
+  //   image: testFresher,
+  //   status: "local host",
+  //   category: "Full Stack",
+  //   icon: Briefcase,
+  //   github: "https://github.com/Rishabh728/",
+  // },
   {
     id:1,
-    title: "Test Freshers",
+    title: "Zarorat",
     description:
-      "Contributed to Test Freshers, a coding practice platform similar to LeetCode, by developing the front-end interface and integrating the database to manage problems, submissions, and user data efficiently.",
+      "Zarorat E-Commerce is a fully-responsive shopping platform built with React and Vite. It features dynamic product rendering, category-based browsing, cart functionality with localStorage persistence, user authentication using Clerk, and a dummy checkout/payment flow.",
     technologies: ["React.js", "JavaScript", "HTML", "CSS"],
-    link: "https://testfreshers.qspiders.com/",
-    image: testFresher,
+    link: "https://zarorat.netlify.app/",
+    image: zarorat,
     status: "local host",
     category: "Full Stack",
     icon: Briefcase,
-    github: "https://github.com/Rishabh728/",
+    github: "https://github.com/Rishabh728/Zarorat_ecommerce",
   },
   {
     id:2,
