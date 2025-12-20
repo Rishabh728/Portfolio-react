@@ -111,22 +111,22 @@ const Hero = ({ isDarkMode, toggleTheme, isVisible }) => {
               </button>
               <div className="flex space-x-4">
                 <a
-                  href=""
+                  href="https://github.com/Rishabh728"
                   className={`p-4 rounded-xl transition-all duration-200 transform hover:scale-110 ${
                     isDarkMode
                       ? "bg-gray-800 text-gray-100 hover:bg-gray-700 border border-gray-700"
                       : "bg-white text-gray-700 hover:bg-gray-50 border border-gray-200 shadow-md"
-                  }`}
+                  }`} target="_blank"
                 >
                   <Github size={20} />
                 </a>
                 <a
-                  href=""
+                  href="https://www.linkedin.com/in/rishabh-engineer/"
                   className={`p-4 rounded-xl transition-all duration-200 transform hover:scale-110  ${
                     isDarkMode
                       ? "bg-gray-800 text-gray-100 hover:bg-gray-700 border border-gray-700"
                       : "bg-white text-gray-700 hover:bg-gray-50 border border-gray-200 shadow-md"
-                  }`}
+                  }`} target="_blank"
                 >
                   <Linkedin size={20} />
                 </a>
@@ -182,7 +182,7 @@ const Hero = ({ isDarkMode, toggleTheme, isVisible }) => {
                 </div>
                  <div className={`text-center space-y-2 ${isDarkMode?"text-gray-100":"text-gray-900"}`}>
                     <h3 className="text-xl font-bold">Full Stack Developer</h3>
-                    <p>Specoalized in React and Node JS</p>
+                    <p>Specialized in MERN Stack</p>
                     <div className="flex justify-center space-x-2 pt-4">
                       <span className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></span>
                       <span className={`text-sm ${isDarkMode?"text-gray-300":"text-gray-600"}`}>Available for hire</span>
