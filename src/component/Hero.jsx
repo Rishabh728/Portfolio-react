@@ -142,8 +142,8 @@ const Hero = ({ isDarkMode, toggleTheme, isVisible }) => {
                 <div className={` text-sm font-bold ${isDarkMode ?"text-gray-400": "text-gray-500"}`}>Years of Experience</div>
               </div>
               <div className="text-center">
-                <div className={`text-3xl font-bold ${isDarkMode ?"text-blue-400": "text-blue-600"}`}>5+</div>
-                <div className={` text-sm font-bold ${isDarkMode ?"text-gray-400": "text-gray-500"}`}>Happy Clients</div>
+                <div className={`text-3xl font-bold ${isDarkMode ?"text-blue-400": "text-blue-600"}`}>10+</div>
+                <div className={` text-sm font-bold ${isDarkMode ?"text-gray-400": "text-gray-500"}`}>APIs Integrated</div>
               </div>
             </div>
           </div>
