@@ -107,7 +107,7 @@ const Hero = ({ isDarkMode, toggleTheme, isVisible }) => {
                 }`}
               >
                 <Download size={16} />
-                <a href="/Rishabh_MernStack.pdf" download>Download CV</a>
+                <a href="/Rishabh_MernStack1.pdf" download>Download CV</a>
               </button>
               <div className="flex space-x-4">
                 <a
