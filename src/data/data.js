@@ -5,12 +5,22 @@ import {
   CarFront,
   Code,
   Code2,
+  CodeIcon,
   CodeSquare,
+  Coffee,
+  Cylinder,
+  Database,
   GraduationCap,
+  HardDrive,
+  Layers,
   LockOpenIcon,
   Mail,
+  MoonIcon,
+  Podcast,
   Rocket,
+  RockingChair,
   School2,
+  Server,
   Star,
   TextSelection,
   User,
@@ -64,6 +74,26 @@ export const skills = [
     category: "Backend Development",
     items: [
       {
+        name: "Java",
+        level: 90,
+        icon: Coffee,
+      },
+      {
+        name: "Spring Framework",
+        level: 90,
+        icon: Layers,
+      },
+      {
+        name: "Spring Boot",
+        level: 90,
+        icon: Server,
+      },
+      {
+        name: "Hibernate",
+        level: 90,
+        icon: Database,
+      },
+      {
         name: "Node.js",
         level: 95,
         icon: Rocket,
@@ -88,7 +118,7 @@ export const skills = [
     icon: Code,
   },
   {
-    category: "Database & Tools",
+    category: "Database",
     items: [
       {
         name: "SQL",
@@ -100,13 +130,46 @@ export const skills = [
         level: 90,
         icon: Briefcase,
       },
-      {
-        name: "Git",
-        level: 88,
-        icon: Star,
-      },
     ],
     color: "from-purple-500 to-pink-500",
+    icon: Code,
+  },
+  {
+    category: "Tools",
+    items: [
+      {
+        name: "Git",
+        level: 90,
+        icon: BookOpen,
+      },
+      {
+        name: "GitHub",
+        level: 97,
+        icon: Cylinder,
+      },
+      {
+        name: "Postman",
+        level: 88,
+        icon: Podcast,
+      },
+      {
+        name: "IntelliJ IDEA",
+        level: 80,
+        icon: HardDrive,
+      },
+      {
+        name: "Eclipse",
+        level: 80,
+        icon: MoonIcon,
+      },
+      {
+        name: "VS Code",
+        level: 98,
+        icon: CodeIcon,
+      },
+     
+    ],
+    color: "from-red-500 to-yellow-500",
     icon: Code,
   },
 ];

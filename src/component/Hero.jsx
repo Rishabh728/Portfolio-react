@@ -107,7 +107,7 @@ const Hero = ({ isDarkMode, toggleTheme, isVisible }) => {
                 }`}
               >
                 <Download size={16} />
-                <a href="/Rishabh_MernStack1.pdf" download>Download CV</a>
+                <a href="/Rishabh_Technical_Trainer.pdf" download>Download CV</a>
               </button>
               <div className="flex space-x-4">
                 <a
@@ -134,15 +134,15 @@ const Hero = ({ isDarkMode, toggleTheme, isVisible }) => {
             </div>
             <div className={` grid grid-cols-3 gap-8 pt-8 border-t ${isDarkMode ?"text-gray-700": "text-gray-200"}`}>
               <div className="text-center">
-                <div className={`text-3xl font-bold ${isDarkMode ?"text-blue-400": "text-blue-600"}`}>7+</div>
+                <div className={`text-3xl font-bold ${isDarkMode ?"text-blue-400": "text-blue-600"}`}>10+</div>
                 <div className={` text-sm font-bold ${isDarkMode ?"text-gray-400": "text-gray-500"}`}>Project Completed</div>
               </div>
               <div className="text-center">
-                <div className={`text-3xl font-bold ${isDarkMode ?"text-blue-400": "text-blue-600"}`}>1+</div>
+                <div className={`text-3xl font-bold ${isDarkMode ?"text-blue-400": "text-blue-600"}`}>4+</div>
                 <div className={` text-sm font-bold ${isDarkMode ?"text-gray-400": "text-gray-500"}`}>Years of Experience</div>
               </div>
               <div className="text-center">
-                <div className={`text-3xl font-bold ${isDarkMode ?"text-blue-400": "text-blue-600"}`}>10+</div>
+                <div className={`text-3xl font-bold ${isDarkMode ?"text-blue-400": "text-blue-600"}`}>15+</div>
                 <div className={` text-sm font-bold ${isDarkMode ?"text-gray-400": "text-gray-500"}`}>APIs Integrated</div>
               </div>
             </div>

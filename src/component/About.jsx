@@ -12,7 +12,7 @@ const About = ({themeClasses, isDarkMode, isVisible}) => {
           <div className="text-center">
             <Rocket size={32} className={`mx-auto mb-3 ${isDarkMode ? 'text-blue-400':'text-blue-500'}`} />
             <h3 className={`text-xl font-bold mb-2 ${themeClasses.text}`}>Experience</h3>
-            <p className={`text-3xl font-bold text-blue-500 mb-1`}>1+</p>
+            <p className={`text-3xl font-bold text-blue-500 mb-1`}>4+</p>
             <p className={`text-sm ${themeClasses.textMuted}`}>Years of Development</p>
           </div>
         </div>
